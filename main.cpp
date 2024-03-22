@@ -11,7 +11,7 @@ int main()
     cout << "Ingrese la cantidad de pesos: ";
     cin >> montoEnPesos;
 
-    // Calcular el monto en dólares
+    // Calcular el monto en dólares (1 MXM = 0.055 USD)
     montoEnDolares = 0.055 * montoEnPesos;
 
     // Mostrar el resultado en consola.
